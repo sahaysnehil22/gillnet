@@ -62,8 +62,9 @@ export function Solution() {
           </div>
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center px-10 sm:px-6">
           <div className="relative aspect-square w-full max-w-[420px]">
+
             <div className="absolute inset-0 rounded-full border border-primary/40" />
             <div className="absolute inset-[13%] rounded-full border border-primary/25" />
             <div className="absolute left-1/2 top-[14%] h-[36%] w-px -translate-x-1/2 bg-primary/50" />

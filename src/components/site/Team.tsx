@@ -26,19 +26,24 @@ export function Team() {
           alt="Illustration of the five GillNet AI team members"
           className="mx-auto w-full max-w-[900px]"
         />
-        <div className="grid grid-cols-2 border-t border-primary sm:grid-cols-3 lg:grid-cols-5">
+        <div className="mx-auto grid max-w-[1000px] grid-cols-2 border-t border-primary sm:grid-cols-3 lg:grid-cols-5">
           {members.map((m, i) => (
             <div
               key={m.name}
-              className={`px-4 py-5 text-center ${i > 0 ? "lg:border-l lg:border-primary" : ""}`}
+              className={`flex flex-col items-center px-3 py-6 text-center ${
+                i % 2 !== 0 ? "border-l border-primary" : ""
+              } sm:border-l-0 ${i % 3 !== 0 ? "sm:border-l sm:border-primary" : ""} lg:border-l-0 ${
+                i > 0 ? "lg:border-l lg:border-primary" : ""
+              }`}
             >
-              <p className="text-[15px] italic">{m.name}</p>
-              <p className="mt-2 text-[12px] italic">{m.role}</p>
-              <p className="text-[11px] italic opacity-80">{m.stack}</p>
+              <p className="text-[14px] font-medium italic leading-tight">{m.name}</p>
+              <p className="mt-3 text-[12px] italic leading-tight">{m.role}</p>
+              <p className="mt-1 text-[10px] italic leading-tight opacity-80">{m.stack}</p>
             </div>
           ))}
         </div>
       </div>
+
     </section>
   );
 }
