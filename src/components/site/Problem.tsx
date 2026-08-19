@@ -13,8 +13,12 @@ export function Problem() {
   return (
     <section id="problem" className="mx-auto max-w-[1440px] px-6 py-20 md:px-16 md:py-28">
       <div className="grid items-center gap-12 md:grid-cols-2">
-        <div className="order-2 flex justify-center md:order-1">
-          <img src={spiral.url} alt="Black spiral object" className="w-[320px] max-w-full lg:w-[440px]" />
+        <div className="order-2 flex items-center justify-center md:order-1 md:justify-start">
+          <img
+            src={spiral.url}
+            alt="Black spiral object"
+            className="w-[340px] max-w-full sm:w-[420px] lg:w-[560px] xl:w-[620px]"
+          />
         </div>
 
         <div className="order-1 md:order-2 md:text-right">

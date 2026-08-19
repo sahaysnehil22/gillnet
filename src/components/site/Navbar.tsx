@@ -12,7 +12,7 @@ function scrollTo(id: string) {
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background">
-      <div className="mx-auto flex h-[70px] max-w-[1440px] items-center justify-between px-6 md:h-[100px] md:px-16">
+      <div className="mx-auto flex h-[60px] max-w-[1440px] items-center justify-between px-6 md:h-[78px] md:px-16">
         <a href="#top" className="text-2xl leading-none md:text-[32px]">
           GillNet AI
         </a>
