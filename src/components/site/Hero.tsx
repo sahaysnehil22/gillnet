@@ -3,7 +3,7 @@ import robot from "@/assets/11.png.asset.json";
 export function Hero() {
   return (
     <section id="top" className="mx-auto max-w-[1440px] px-6 md:px-16">
-      <div className="grid items-center gap-8 py-10 md:grid-cols-[minmax(0,1fr)_auto] md:gap-6 md:py-16">
+      <div className="grid items-center gap-2 py-10 md:grid-cols-[minmax(0,1fr)_auto] md:gap-6 md:py-16">
         <div className="min-w-0">
           <h1 className="text-[44px] leading-[1.05] tracking-tight sm:text-[64px] lg:text-[104px] xl:text-[120px]">
             <span className="block">
