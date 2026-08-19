@@ -1,0 +1,9 @@
+export function Quote() {
+  return (
+    <section className="mx-auto max-w-[1440px] px-6 pb-16 pt-4 md:px-16 md:pb-24">
+      <p className="mx-auto max-w-[459px] text-center text-[16px] italic leading-[1.4] md:text-[20px]">
+        "The only truly secure system is one that is powered off." - Gene Spafford
+      </p>
+    </section>
+  );
+}
