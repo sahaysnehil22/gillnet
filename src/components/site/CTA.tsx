@@ -1,0 +1,29 @@
+export function CTA() {
+  return (
+    <section id="cta" className="border-t border-border">
+      <div className="mx-auto max-w-[1440px] px-6 py-24 text-center md:px-16 md:py-32">
+        <h2 className="mx-auto max-w-[720px] text-[42px] leading-[1.05] sm:text-[56px] lg:text-[68px]">
+          Ready To <span className="italic font-light">Stay</span>
+          <br />
+          Secure?
+        </h2>
+        <p className="mx-auto mt-8 max-w-[620px] text-[15px] leading-[1.6] md:text-[16px]">
+          Protect your inbox, passwords, websites, and digital identity with intelligent AI-powered
+          cybersecurity. Stay ahead of evolving threats with continuous monitoring, instant
+          analysis, and proactive protection designed for the modern digital world.
+        </p>
+        <button className="mt-10 h-[50px] w-[195px] rounded-full bg-primary text-[20px] text-primary-foreground transition-opacity hover:opacity-85">
+          Start Protecting
+        </button>
+
+        <div className="mx-auto mt-14 flex max-w-[720px] items-center gap-6">
+          <span className="h-px flex-1 bg-primary/40" />
+          <p className="max-w-[380px] text-[14px] italic leading-[1.5]">
+            "Security is not a product, but a process." - Bruce Schneier
+          </p>
+          <span className="h-px flex-1 bg-primary/40" />
+        </div>
+      </div>
+    </section>
+  );
+}
