@@ -152,8 +152,13 @@
     border-color: var(--color-border);
   }
 
+  html {
+    background-color: #f3f3f3;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
 }
+
