@@ -76,6 +76,7 @@
 }
 
 :root {
+  color-scheme: light;
   --radius: 0.625rem;
   --background: #f3f3f3;
   --foreground: oklch(0 0 0);
@@ -113,7 +114,7 @@
 
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
+  --background: #f3f3f3;
   --foreground: oklch(0.984 0.003 247.858);
   --card: oklch(0.208 0.042 265.755);
   --card-foreground: oklch(0.984 0.003 247.858);
@@ -152,12 +153,15 @@
     border-color: var(--color-border);
   }
 
-  html {
-    background-color: #f3f3f3;
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    background-color: #f3f3f3 !important;
   }
 
   body {
-    background-color: var(--color-background);
+    margin: 0;
     color: var(--color-foreground);
   }
 }
