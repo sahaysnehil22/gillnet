@@ -7,7 +7,7 @@ export function CTA() {
           <br />
           Secure?
         </h2>
-        <p className="mx-auto mt-8 max-w-[620px] text-[15px] font-light italic leading-[1.6] text-primary/90 md:text-[16px]">
+        <p className="mx-auto mt-8 max-w-[620px] text-[14px] font-light italic leading-[1.6] text-primary/90">
           Protect your inbox, passwords, websites, and digital identity with intelligent AI-powered
           cybersecurity. Stay ahead of evolving threats with continuous monitoring, instant
           analysis, and proactive protection designed for the modern digital world.

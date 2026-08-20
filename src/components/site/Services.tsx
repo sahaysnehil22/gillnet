@@ -47,7 +47,7 @@ export function Services() {
               <br />
               By <span className="italic font-light">Intelligence.</span>
             </h2>
-            <p className="mt-6 text-[15px] font-light italic leading-[1.6] text-primary/90 md:ml-auto md:max-w-[520px] md:text-[16px]">
+            <p className="mt-6 text-[14px] font-light italic leading-[1.6] text-primary/90 md:ml-auto md:max-w-[520px]">
               GillNet AI provides various AI - Powered Cybersecurity Tools that detect, analyze, and
               neutralize digital threats in Real Life.
             </p>
@@ -60,11 +60,11 @@ export function Services() {
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((s) => (
             <article key={s.n} className="rounded-lg border border-primary p-6">
-              <p className="text-[11px] font-light italic text-primary/90">Service</p>
+              <p className="text-[14px] font-light italic text-primary/90">Service</p>
               <p className="mt-3 text-[32px] leading-none">{s.n}</p>
               <h3 className="mt-6 border-b border-primary pb-3 text-[17px]">{s.title}</h3>
-              <p className="mt-4 text-[13px] font-light italic leading-[1.6] text-primary/90">{s.desc}</p>
-              <ul className="mt-5 space-y-1 text-[12px] font-light italic text-primary/90">
+              <p className="mt-4 text-[14px] font-light italic leading-[1.6] text-primary/90">{s.desc}</p>
+              <ul className="mt-5 space-y-1 text-[14px] font-light italic text-primary/90">
                 {s.points.map((p) => (
                   <li key={p}>·{p}</li>
                 ))}

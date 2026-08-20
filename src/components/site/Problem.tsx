@@ -1,4 +1,4 @@
-import spiral from "@/assets/element.png.asset.json";
+import spiral from "@/assets/element-cropped.png.asset.json";
 import users from "@/assets/libre-gui-users_logo.png.asset.json";
 import lock from "@/assets/Vector.png.asset.json";
 import globe from "@/assets/Vector_1.png.asset.json";
@@ -38,7 +38,7 @@ export function Problem() {
             </span>
           </h2>
 
-          <p className="mt-6 text-[15px] font-light italic leading-[1.6] text-primary/90 md:ml-auto md:max-w-[520px] md:text-[16px]">
+          <p className="mt-6 text-[14px] font-light italic leading-[1.6] text-primary/90 md:ml-auto md:max-w-[520px]">
             Every click, password, and message creates an opportunity for cybercriminals. Most
             attacks don't exploit software—they exploit human trust.
           </p>
@@ -49,7 +49,7 @@ export function Problem() {
                 key={t.label}
                 className="flex w-full items-center justify-between gap-4 rounded-[25px] border border-primary py-2 pl-5 pr-2 md:w-auto md:min-w-[210px]"
               >
-                <span className="text-[15px] md:text-[16px]">{t.label}</span>
+                <span className="text-[14px]">{t.label}</span>
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-primary">
                   <img src={t.icon} alt="" className="h-3.5 w-3.5 object-contain" />
                 </span>
