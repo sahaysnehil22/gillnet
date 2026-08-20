@@ -7,7 +7,7 @@ export function CTA() {
           <br />
           Secure?
         </h2>
-        <p className="mx-auto mt-8 max-w-[620px] text-[15px] leading-[1.6] md:text-[16px]">
+        <p className="mx-auto mt-8 max-w-[620px] text-[15px] font-light italic leading-[1.6] text-primary/90 md:text-[16px]">
           Protect your inbox, passwords, websites, and digital identity with intelligent AI-powered
           cybersecurity. Stay ahead of evolving threats with continuous monitoring, instant
           analysis, and proactive protection designed for the modern digital world.
@@ -18,7 +18,7 @@ export function CTA() {
 
         <div className="mx-auto mt-14 flex max-w-[720px] items-center gap-6">
           <span className="h-px flex-1 bg-primary/40" />
-          <p className="max-w-[380px] text-[14px] italic leading-[1.5]">
+          <p className="max-w-[380px] text-[14px] font-light italic leading-[1.5] text-primary/90">
             "Security is not a product, but a process." - Bruce Schneier
           </p>
           <span className="h-px flex-1 bg-primary/40" />

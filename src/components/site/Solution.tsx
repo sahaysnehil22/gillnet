@@ -16,12 +16,12 @@ export function Solution() {
             <br />
             <span className="italic font-light">Every</span> threat.
           </h2>
-          <p className="mt-6 max-w-[440px] text-[15px] italic leading-[1.7] md:text-[16px]">
+          <p className="mt-6 max-w-[440px] text-[15px] font-light italic leading-[1.7] text-primary/90 md:text-[16px]">
             GillNet AI combines the power of Artificial Intelligence with Cybersecurity to detect
             phishing attempts, scam messages, weak passwords and suspicious activity - Before they
             cause any damage.
           </p>
-          <div className="mt-10 flex flex-wrap items-center gap-4 text-[15px] italic md:text-[16px]">
+          <div className="mt-10 flex flex-wrap items-center gap-4 text-[15px] font-light italic text-primary/90 md:text-[16px]">
             {["Detect", "Analyze", "Warn", "Protect"].map((s, i) => (
               <span key={s} className="flex items-center gap-4">
                 {i > 0 && <span className="not-italic">·</span>}
