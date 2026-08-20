@@ -1,4 +1,4 @@
-import robot from "@/assets/11.png.asset.json";
+import robot from "@/assets/robot.png.asset.json";
 
 export function Hero() {
   return (
@@ -19,7 +19,7 @@ export function Hero() {
             </span>
           </h1>
 
-          <p className="mt-6 max-w-[420px] text-center text-[14px] leading-[1.6] md:mx-auto md:mt-7 md:text-[15px]">
+          <p className="mt-6 max-w-[420px] text-center text-[14px] font-light italic leading-[1.6] text-primary/90 md:mx-auto md:mt-7 md:text-[15px]">
             Detect phishing websites, uncover scam messages, strengthen your passwords, and protect
             your digital life with AI-Powered Cybersecurity tool.
           </p>
