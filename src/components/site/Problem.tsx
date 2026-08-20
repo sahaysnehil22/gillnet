@@ -17,7 +17,7 @@ export function Problem() {
           <img
             src={spiral.url}
             alt="Black spiral object"
-            className="w-[340px] max-w-full sm:w-[420px] lg:w-[560px] xl:w-[620px]"
+            className="mt-6 w-[300px] max-w-full sm:w-[380px] lg:w-[500px] xl:w-[600px]"
           />
         </div>
 
@@ -25,7 +25,7 @@ export function Problem() {
           <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
             The Problem
           </p>
-          <h2 className="mt-6 text-[30px] leading-[1.12] sm:text-[38px] lg:text-[46px] xl:text-[54px]">
+          <h2 className="mt-6 text-[26px] leading-[1.12] sm:text-[32px] md:text-[28px] lg:text-[36px] xl:text-[44px]">
             <span className="block whitespace-nowrap">
               The <span className="font-normal">Digital</span>{" "}
               <span className="italic font-light">World</span>
