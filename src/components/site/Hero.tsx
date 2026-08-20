@@ -33,7 +33,9 @@ export function Hero() {
               Watch Demo
             </button>
           </div>
+          </div>
         </div>
+
 
 
         <div className="flex min-w-0 items-center justify-center md:justify-end">

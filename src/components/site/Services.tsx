@@ -40,7 +40,7 @@ export function Services() {
             <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
               Our Services
             </p>
-            <h2 className="mt-6 text-[28px] leading-[1.08] sm:text-[34px] md:text-[30px] lg:text-[40px] xl:text-[48px]">
+            <h2 className="mt-6 text-[30px] leading-[1.05] sm:text-[40px] md:text-[38px] lg:text-[56px] xl:text-[85px]">
               <span className="block whitespace-nowrap">Comprehensive</span>
               <span className="block whitespace-nowrap">
                 <span className="italic font-light">Protection.</span> Powered
