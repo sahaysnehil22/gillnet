@@ -21,26 +21,28 @@ export function Team() {
       </h2>
 
       <div className="mt-12 border border-primary p-4 md:p-8">
-        <img
-          src={team.url}
-          alt="Illustration of the five GillNet AI team members"
-          className="mx-auto w-full max-w-[900px]"
-        />
-        <div className="mx-auto grid max-w-[1000px] grid-cols-2 border-t border-primary sm:grid-cols-3 lg:grid-cols-5">
-          {members.map((m, i) => (
-            <div
-              key={m.name}
-              className={`flex flex-col items-center px-3 py-6 text-center ${
-                i % 2 !== 0 ? "border-l border-primary" : ""
-              } sm:border-l-0 ${i % 3 !== 0 ? "sm:border-l sm:border-primary" : ""} lg:border-l-0 ${
-                i > 0 ? "lg:border-l lg:border-primary" : ""
-              }`}
-            >
-              <p className="text-[14px] font-medium italic leading-tight">{m.name}</p>
-              <p className="mt-3 text-[12px] italic leading-tight">{m.role}</p>
-              <p className="mt-1 text-[10px] italic leading-tight opacity-80">{m.stack}</p>
+        <div className="overflow-x-auto">
+          <div className="mx-auto w-full min-w-[900px] max-w-[1000px]">
+            <img
+              src={team.url}
+              alt="Illustration of the five GillNet AI team members"
+              className="mx-auto w-full"
+            />
+            <div className="grid grid-cols-5 border-t border-primary">
+              {members.map((m, i) => (
+                <div
+                  key={m.name}
+                  className={`flex flex-col items-center px-3 py-6 text-center ${
+                    i > 0 ? "border-l border-primary" : ""
+                  }`}
+                >
+                  <p className="text-[14px] font-medium italic leading-tight">{m.name}</p>
+                  <p className="mt-3 text-[12px] italic leading-tight">{m.role}</p>
+                  <p className="mt-1 text-[10px] italic leading-tight opacity-80">{m.stack}</p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
 
