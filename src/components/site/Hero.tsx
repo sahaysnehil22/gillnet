@@ -6,15 +6,15 @@ export function Hero() {
       id="top"
       className="mx-auto flex max-w-[1440px] flex-col justify-center px-6 md:min-h-[calc(100svh-78px)] md:px-16"
     >
-      <div className="grid items-center gap-2 py-8 md:grid-cols-[minmax(0,1fr)_auto] md:gap-6 md:py-4">
+      <div className="grid items-center gap-2 py-8 md:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] md:gap-8 md:py-4">
         <div className="min-w-0">
-          <h1 className="text-[42px] leading-[1.02] tracking-tight sm:text-[58px] lg:text-[78px] xl:text-[92px]">
+          <h1 className="text-[44px] leading-[1.0] tracking-tight sm:text-[62px] lg:text-[82px] xl:text-[96px]">
             <span className="block">
               <span className="font-normal">Stay </span>
               <span className="font-light italic">Secure.</span>
             </span>
-            <span className="block pl-[0.18em] font-light">Stay</span>
-            <span className="block pl-[0.36em] font-normal">Ahead.</span>
+            <span className="block font-normal">Stay</span>
+            <span className="block pl-[0.30em] font-normal">Ahead.</span>
           </h1>
 
           <p className="mt-5 max-w-[480px] pl-1 text-[15px] leading-[1.5] md:mt-6 md:text-[17px]">
@@ -32,13 +32,11 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="flex justify-center self-center md:justify-end">
+        <div className="flex min-w-0 items-center justify-center md:justify-end">
           <img
             src={robot.url}
             alt="Black futuristic AI robot"
-            width={510}
-            height={700}
-            className="h-auto w-[240px] max-w-full sm:w-[300px] md:w-[340px] md:max-h-[62svh] md:object-contain lg:w-[420px] xl:w-[470px]"
+            className="h-auto w-[260px] max-w-full object-contain sm:w-[320px] md:max-h-[68svh] md:w-full"
           />
         </div>
       </div>
