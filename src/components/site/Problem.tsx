@@ -12,7 +12,7 @@ const threats = [
 export function Problem() {
   return (
     <section id="problem" className="mx-auto max-w-[1440px] px-6 py-20 md:px-16 md:py-28">
-      <div className="grid gap-12 md:grid-cols-2 md:items-start">
+      <div className="grid gap-12 md:grid-cols-[0.8fr_1.2fr] md:items-start">
         <div className="order-2 flex items-start justify-center md:order-1 md:justify-start">
           <img
             src={spiral.url}

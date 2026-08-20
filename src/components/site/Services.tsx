@@ -31,7 +31,7 @@ export function Services() {
   return (
     <section id="services" className="border-y border-border">
       <div className="mx-auto max-w-[1440px] px-6 py-20 md:px-16 md:py-28">
-        <div className="grid items-center gap-12 md:grid-cols-2">
+        <div className="grid items-center gap-12 md:grid-cols-[0.8fr_1.2fr]">
           <div className="order-2 flex justify-center md:order-1">
             <img src={sphere.url} alt="Wireframe geometric sphere" className="w-[300px] max-w-full lg:w-[400px]" />
           </div>
