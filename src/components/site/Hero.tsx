@@ -19,7 +19,7 @@ export function Hero() {
             </span>
           </h1>
 
-          <p className="mx-auto mt-6 max-w-[420px] text-center text-[14px] font-light italic leading-[1.6] text-primary/90 md:mt-7 md:max-w-[86%] md:text-[15px]">
+          <p className="mx-auto mt-6 max-w-[420px] text-center text-[14px] font-light italic leading-[1.6] text-primary/90 md:mt-7 md:max-w-[86%]">
             Detect phishing websites, uncover scam messages, strengthen your passwords, and protect
             your digital life with AI-Powered Cybersecurity tool.
           </p>
