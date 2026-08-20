@@ -43,19 +43,20 @@ export function Problem() {
             attacks don't exploit software—they exploit human trust.
           </p>
 
-          <div className="mt-8 flex flex-col items-stretch gap-3 md:items-end">
+          <div className="mt-8 flex flex-col items-stretch gap-4 md:items-end">
             {threats.map((t) => (
               <div
                 key={t.label}
-                className="flex w-full items-center justify-between gap-4 rounded-[25px] border border-primary py-2 pl-5 pr-2 md:w-auto md:min-w-[210px]"
+                className="flex w-full items-center justify-between gap-6 rounded-[25px] border-[1.5px] border-primary py-2.5 pl-7 pr-2.5 md:w-auto md:min-w-[260px]"
               >
-                <span className="text-[14px]">{t.label}</span>
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-primary">
-                  <img src={t.icon} alt="" className="h-3.5 w-3.5 object-contain" />
+                <span className="text-[22px] leading-none">{t.label}</span>
+                <span className="flex h-[44px] w-[44px] shrink-0 items-center justify-center rounded-full border-[1.5px] border-primary">
+                  <img src={t.icon} alt="" className="h-5 w-5 object-contain" />
                 </span>
               </div>
             ))}
           </div>
+
 
         </div>
       </div>
