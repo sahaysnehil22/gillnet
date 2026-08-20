@@ -13,8 +13,13 @@ function scrollTo(id: string) {
   if (!el) return;
   const header = document.getElementById("site-header");
   const offset = (header?.offsetHeight ?? 0) + 12;
-  const top = el.getBoundingClientRect().top + window.scrollY - offset;
-  window.scrollTo({ top, behavior: "smooth" });
+  const go = () => {
+    const top = el.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: "smooth" });
+  };
+  go();
+  // re-correct after images/layout settle so we don't land mid-section
+  setTimeout(go, 420);
 }
 
 export function Navbar() {

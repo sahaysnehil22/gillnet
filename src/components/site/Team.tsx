@@ -1,12 +1,4 @@
-import team from "@/assets/Rectangle_10.png.asset.json";
-
-const members = [
-  { name: "Pushkar Bhardwaj", role: "Front-End Developer", stack: "(React, HTML, CSS, JS)" },
-  { name: "Riya Singh", role: "Database Management", stack: "(MongoDB, SqlAlchemy, PSQL)" },
-  { name: "Mayank Trigunayat", role: "Backend Developer", stack: "(Java, Springboot, Maven)" },
-  { name: "Dhyey Patel", role: "UI/UX Designer & Deployment", stack: "(Figma, Vercel, HTML, CSS)" },
-  { name: "Aman Agarwal", role: "AI/ML Engineer", stack: "(Python Fast API & Pytorch)" },
-];
+import team from "@/assets/team-panel.png.asset.json";
 
 export function Team() {
   return (
@@ -20,32 +12,13 @@ export function Team() {
         GillNet AI.
       </h2>
 
-      <div className="mt-12 border border-primary p-4 md:p-8">
-        <div className="overflow-x-auto">
-          <div className="mx-auto w-full min-w-[900px] max-w-[1000px]">
-            <img
-              src={team.url}
-              alt="Illustration of the five GillNet AI team members"
-              className="mx-auto w-full"
-            />
-            <div className="grid grid-cols-5 border-t border-primary">
-              {members.map((m, i) => (
-                <div
-                  key={m.name}
-                  className={`flex flex-col items-center px-3 py-6 text-center ${
-                    i > 0 ? "border-l border-primary" : ""
-                  }`}
-                >
-                  <p className="text-[14px] font-medium italic leading-tight">{m.name}</p>
-                  <p className="mt-3 text-[12px] italic leading-tight">{m.role}</p>
-                  <p className="mt-1 text-[10px] italic leading-tight opacity-80">{m.stack}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+      <div className="mt-12">
+        <img
+          src={team.url}
+          alt="The five GillNet AI team members with their roles"
+          className="mx-auto w-full max-w-[1100px]"
+        />
       </div>
-
     </section>
   );
 }

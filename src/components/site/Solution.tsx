@@ -2,7 +2,10 @@ import diagram from "@/assets/solution-diagram.png.asset.json";
 
 export function Solution() {
   return (
-    <section id="solution" className="mx-auto max-w-[1440px] px-6 pb-24 md:px-16 md:pb-32">
+    <section
+      id="solution"
+      className="mx-auto max-w-[1440px] scroll-mt-[80px] px-6 pt-12 pb-24 md:px-16 md:pt-20 md:pb-32"
+    >
       <div className="grid items-center gap-16 md:grid-cols-2">
         <div>
           <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
