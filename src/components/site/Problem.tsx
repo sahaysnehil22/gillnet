@@ -1,12 +1,12 @@
-import spiral from "@/assets/element-cropped.png.asset.json";
-import users from "@/assets/libre-gui-users_logo.png.asset.json";
-import lock from "@/assets/Vector.png.asset.json";
-import globe from "@/assets/Vector_1.png.asset.json";
+import spiral from "@/assets/element-cropped.png";
+import users from "@/assets/libre-gui-users_logo.png";
+import lock from "@/assets/Vector.png";
+import globe from "@/assets/Vector_1.png";
 
 const threats = [
-  { label: "Scammers", icon: users.url },
-  { label: "Weak Passcode", icon: lock.url },
-  { label: "Phishing Websites", icon: globe.url },
+  { label: "Scammers", icon: users },
+  { label: "Weak Passcode", icon: lock },
+  { label: "Phishing Websites", icon: globe },
 ];
 
 export function Problem() {
@@ -15,7 +15,7 @@ export function Problem() {
       <div className="grid gap-12 md:grid-cols-[0.8fr_1.2fr] md:items-start">
         <div className="order-2 flex items-start justify-center md:order-1 md:justify-start">
           <img
-            src={spiral.url}
+            src={spiral}
             alt="Black spiral object"
             className="mt-6 w-[300px] max-w-full sm:w-[380px] lg:w-[440px] xl:w-[500px]"
           />

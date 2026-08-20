@@ -1,4 +1,4 @@
-import diagram from "@/assets/solution-diagram.png.asset.json";
+import diagram from "@/assets/solution-diagram.png";
 
 export function Solution() {
   return (
@@ -33,7 +33,7 @@ export function Solution() {
 
         <div className="flex justify-center">
           <img
-            src={diagram.url}
+            src={diagram}
             alt="GillNet AI security tool diagram connecting passwords, emails, websites and messages"
             className="h-auto w-full max-w-[520px]"
           />
