@@ -32,7 +32,7 @@ export function Problem() {
             <br />
             <span className="italic font-light">Attackers</span> Depend On It.
           </h2>
-          <p className="mt-6 text-[15px] italic leading-[1.6] md:ml-auto md:max-w-[520px] md:text-[16px]">
+          <p className="mt-6 text-[15px] font-light italic leading-[1.6] text-primary/90 md:ml-auto md:max-w-[520px] md:text-[16px]">
             Every click, password, and message creates an opportunity for cybercriminals. Most
             attacks don't exploit software—they exploit human trust.
           </p>
