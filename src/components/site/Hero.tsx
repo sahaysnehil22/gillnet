@@ -1,4 +1,4 @@
-import robot from "@/assets/robot.png.asset.json";
+import robot from "@/assets/robot.png";
 
 export function Hero() {
   return (
@@ -40,7 +40,7 @@ export function Hero() {
 
         <div className="flex min-w-0 items-center justify-center md:justify-end">
           <img
-            src={robot.url}
+            src={robot}
             alt="Black futuristic AI robot"
             className="h-auto w-[260px] max-w-full object-contain sm:w-[320px] md:max-h-[68svh] md:w-full"
           />

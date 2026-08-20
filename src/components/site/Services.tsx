@@ -1,4 +1,4 @@
-import sphere from "@/assets/Union.png.asset.json";
+import sphere from "@/assets/Union.png";
 
 const services = [
   {
@@ -33,7 +33,7 @@ export function Services() {
       <div className="mx-auto max-w-[1440px] px-6 py-20 md:px-16 md:py-28">
         <div className="grid items-center gap-12 md:grid-cols-[0.8fr_1.2fr]">
           <div className="order-2 flex justify-center md:order-1">
-            <img src={sphere.url} alt="Wireframe geometric sphere" className="w-[300px] max-w-full lg:w-[400px]" />
+            <img src={sphere} alt="Wireframe geometric sphere" className="w-[300px] max-w-full lg:w-[400px]" />
           </div>
 
           <div className="order-1 md:order-2 md:text-right">

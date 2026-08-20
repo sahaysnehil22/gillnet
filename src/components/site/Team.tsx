@@ -1,4 +1,4 @@
-import team from "@/assets/team-panel.png.asset.json";
+import team from "@/assets/team-panel.png";
 
 export function Team() {
   return (
@@ -14,7 +14,7 @@ export function Team() {
 
       <div className="mt-12">
         <img
-          src={team.url}
+          src={team}
           alt="The five GillNet AI team members with their roles"
           className="mx-auto w-full max-w-[1100px]"
         />
