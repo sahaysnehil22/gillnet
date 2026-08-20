@@ -31,7 +31,7 @@ export function Services() {
   return (
     <section id="services" className="border-y border-border">
       <div className="mx-auto max-w-[1440px] px-6 py-20 md:px-16 md:py-28">
-        <div className="grid items-center gap-12 md:grid-cols-2">
+        <div className="grid items-center gap-12 md:grid-cols-[0.8fr_1.2fr]">
           <div className="order-2 flex justify-center md:order-1">
             <img src={sphere.url} alt="Wireframe geometric sphere" className="w-[300px] max-w-full lg:w-[400px]" />
           </div>
@@ -40,7 +40,7 @@ export function Services() {
             <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
               Our Services
             </p>
-            <h2 className="mt-6 text-[28px] leading-[1.08] sm:text-[34px] md:text-[30px] lg:text-[40px] xl:text-[48px]">
+            <h2 className="mt-6 leading-[1.05]" style={{ fontSize: "clamp(22px, 4.4vw, 85px)" }}>
               <span className="block whitespace-nowrap">Comprehensive</span>
               <span className="block whitespace-nowrap">
                 <span className="italic font-light">Protection.</span> Powered

@@ -12,12 +12,12 @@ const threats = [
 export function Problem() {
   return (
     <section id="problem" className="mx-auto max-w-[1440px] px-6 py-20 md:px-16 md:py-28">
-      <div className="grid gap-12 md:grid-cols-2 md:items-start">
+      <div className="grid gap-12 md:grid-cols-[0.8fr_1.2fr] md:items-start">
         <div className="order-2 flex items-start justify-center md:order-1 md:justify-start">
           <img
             src={spiral.url}
             alt="Black spiral object"
-            className="mt-6 w-[300px] max-w-full sm:w-[380px] lg:w-[500px] xl:w-[600px]"
+            className="mt-6 w-[300px] max-w-full sm:w-[380px] lg:w-[440px] xl:w-[500px]"
           />
         </div>
 
@@ -25,7 +25,7 @@ export function Problem() {
           <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
             The Problem
           </p>
-          <h2 className="mt-6 text-[28px] leading-[1.08] sm:text-[34px] md:text-[30px] lg:text-[40px] xl:text-[48px]">
+          <h2 className="mt-6 leading-[1.05]" style={{ fontSize: "clamp(22px, 4.4vw, 85px)" }}>
             <span className="block whitespace-nowrap">
               The <span className="font-normal">Digital</span>{" "}
               <span className="italic font-light">World</span>

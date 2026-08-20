@@ -13,12 +13,13 @@ export function Hero() {
               <span className="font-normal">Stay </span>
               <span className="font-light italic">Secure.</span>
             </span>
-            <span className="block whitespace-nowrap">
+            <span className="block whitespace-nowrap pl-[0.5em]">
               <span className="font-normal">Stay </span>
               <span className="font-normal">Ahead.</span>
             </span>
           </h1>
 
+          <div className="pl-[23px] sm:pl-[32px] lg:pl-[42px] xl:pl-[50px]">
           <p className="mx-auto mt-6 w-full max-w-[440px] text-center text-[14px] font-light italic leading-[1.6] text-primary/90 md:mt-7">
             Detect phishing websites, uncover scam messages, strengthen your passwords, and protect
             your digital life with AI-Powered Cybersecurity tool.
@@ -32,7 +33,9 @@ export function Hero() {
               Watch Demo
             </button>
           </div>
+          </div>
         </div>
+
 
 
         <div className="flex min-w-0 items-center justify-center md:justify-end">
