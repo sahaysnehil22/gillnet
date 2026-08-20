@@ -8,21 +8,23 @@ export function Hero() {
     >
       <div className="grid items-center gap-2 py-8 md:grid-cols-[minmax(0,1fr)_minmax(0,0.85fr)] md:gap-8 md:py-4">
         <div className="min-w-0">
-          <h1 className="text-[44px] leading-[1.0] tracking-tight sm:text-[62px] lg:text-[82px] xl:text-[96px]">
+          <h1 className="text-[46px] leading-[1.02] tracking-tight sm:text-[64px] lg:text-[84px] xl:text-[100px]">
             <span className="block">
               <span className="font-normal">Stay </span>
               <span className="font-light italic">Secure.</span>
             </span>
-            <span className="block font-normal">Stay</span>
-            <span className="block pl-[0.30em] font-normal">Ahead.</span>
+            <span className="block pl-[0.18em]">
+              <span className="font-normal">Stay </span>
+              <span className="font-normal">Ahead.</span>
+            </span>
           </h1>
 
-          <p className="mt-5 max-w-[480px] pl-1 text-[15px] leading-[1.5] md:mt-6 md:text-[17px]">
+          <p className="mt-6 max-w-[420px] text-center text-[14px] leading-[1.6] md:mx-auto md:mt-7 md:text-[15px]">
             Detect phishing websites, uncover scam messages, strengthen your passwords, and protect
             your digital life with AI-Powered Cybersecurity tool.
           </p>
 
-          <div className="mt-6 flex flex-wrap gap-3 pl-1 md:gap-4">
+          <div className="mt-6 flex flex-wrap justify-center gap-3 md:gap-4">
             <button className="h-[42px] w-[150px] rounded-full border border-primary text-[15px] transition-colors hover:bg-primary hover:text-primary-foreground md:h-[46px] md:w-[168px] md:text-[17px]">
               Start Protecting
             </button>
