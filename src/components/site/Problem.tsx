@@ -25,7 +25,7 @@ export function Problem() {
           <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
             The Problem
           </p>
-          <h2 className="mt-6 text-[30px] leading-[1.05] sm:text-[40px] md:text-[38px] lg:text-[56px] xl:text-[85px]">
+          <h2 className="mt-6 leading-[1.05]" style={{ fontSize: "clamp(22px, 4.4vw, 85px)" }}>
             <span className="block whitespace-nowrap">
               The <span className="font-normal">Digital</span>{" "}
               <span className="italic font-light">World</span>
