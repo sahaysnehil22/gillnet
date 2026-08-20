@@ -25,7 +25,7 @@ export function Problem() {
           <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
             The Problem
           </p>
-          <h2 className="mt-6 text-[26px] leading-[1.12] sm:text-[32px] md:text-[28px] lg:text-[36px] xl:text-[44px]">
+          <h2 className="mt-6 text-[28px] leading-[1.08] sm:text-[34px] md:text-[30px] lg:text-[40px] xl:text-[48px]">
             <span className="block whitespace-nowrap">
               The <span className="font-normal">Digital</span>{" "}
               <span className="italic font-light">World</span>
