@@ -78,22 +78,22 @@
 :root {
   color-scheme: light;
   --radius: 0.625rem;
-  --background: #F3F3F3;
+  --background: #F3F3E3;
   --foreground: #000000;
-  --card: #F3F3F3;
+  --card: #F3F3E3;
   --card-foreground: #000000;
-  --popover: #F3F3F3;
+  --popover: #F3F3E3;
   --popover-foreground: #000000;
   --primary: #000000;
-  --primary-foreground: #F3F3F3;
-  --secondary: #F3F3F3;
+  --primary-foreground: #F3F3E3;
+  --secondary: #F3F3E3;
   --secondary-foreground: #000000;
-  --muted: #F3F3F3;
+  --muted: #F3F3E3;
   --muted-foreground: #000000;
-  --accent: #F3F3F3;
+  --accent: #F3F3E3;
   --accent-foreground: #000000;
   --destructive: #000000;
-  --destructive-foreground: #F3F3F3;
+  --destructive-foreground: #F3F3E3;
   --border: rgb(0 0 0 / 25%);
   --input: rgb(0 0 0 / 25%);
   --ring: rgb(0 0 0 / 40%);
@@ -102,11 +102,11 @@
   --chart-3: #000000;
   --chart-4: #000000;
   --chart-5: #000000;
-  --sidebar: #F3F3F3;
+  --sidebar: #F3F3E3;
   --sidebar-foreground: #000000;
   --sidebar-primary: #000000;
-  --sidebar-primary-foreground: #F3F3F3;
-  --sidebar-accent: #F3F3F3;
+  --sidebar-primary-foreground: #F3F3E3;
+  --sidebar-accent: #F3F3E3;
   --sidebar-accent-foreground: #000000;
   --sidebar-border: rgb(0 0 0 / 25%);
   --sidebar-ring: rgb(0 0 0 / 40%);
@@ -115,22 +115,22 @@
 
 .dark {
   color-scheme: light;
-  --background: #F3F3F3;
+  --background: #F3F3E3;
   --foreground: #000000;
-  --card: #F3F3F3;
+  --card: #F3F3E3;
   --card-foreground: #000000;
-  --popover: #F3F3F3;
+  --popover: #F3F3E3;
   --popover-foreground: #000000;
   --primary: #000000;
-  --primary-foreground: #F3F3F3;
-  --secondary: #F3F3F3;
+  --primary-foreground: #F3F3E3;
+  --secondary: #F3F3E3;
   --secondary-foreground: #000000;
-  --muted: #F3F3F3;
+  --muted: #F3F3E3;
   --muted-foreground: #000000;
-  --accent: #F3F3F3;
+  --accent: #F3F3E3;
   --accent-foreground: #000000;
   --destructive: #000000;
-  --destructive-foreground: #F3F3F3;
+  --destructive-foreground: #F3F3E3;
   --border: rgb(0 0 0 / 25%);
   --input: rgb(0 0 0 / 25%);
   --ring: rgb(0 0 0 / 40%);
@@ -139,11 +139,11 @@
   --chart-3: #000000;
   --chart-4: #000000;
   --chart-5: #000000;
-  --sidebar: #F3F3F3;
+  --sidebar: #F3F3E3;
   --sidebar-foreground: #000000;
   --sidebar-primary: #000000;
-  --sidebar-primary-foreground: #F3F3F3;
-  --sidebar-accent: #F3F3F3;
+  --sidebar-primary-foreground: #F3F3E3;
+  --sidebar-accent: #F3F3E3;
   --sidebar-accent-foreground: #000000;
   --sidebar-border: rgb(0 0 0 / 25%);
   --sidebar-ring: rgb(0 0 0 / 40%);
@@ -159,19 +159,19 @@
   #root {
     min-height: 100%;
     width: 100%;
-    background-color: #F3F3F3 !important;
+    background-color: #F3F3E3 !important;
     color: #000000 !important;
   }
 
   body {
     margin: 0;
-    background-color: #F3F3F3 !important;
+    background-color: #F3F3E3 !important;
     color: #000000 !important;
   }
 
   main,
   section {
-    background-color: #F3F3F3;
+    background-color: #F3F3E3;
     color: #000000;
   }
 }
