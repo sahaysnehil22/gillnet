@@ -40,12 +40,14 @@ export function Services() {
             <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
               Our Services
             </p>
-            <h2 className="mt-6 text-[36px] leading-[1.08] sm:text-[48px] lg:text-[60px]">
-              Comprehensive
-              <br />
-              <span className="italic font-light">Protection.</span> Powered
-              <br />
-              By <span className="italic font-light">Intelligence.</span>
+            <h2 className="mt-6 text-[28px] leading-[1.08] sm:text-[34px] md:text-[30px] lg:text-[40px] xl:text-[48px]">
+              <span className="block whitespace-nowrap">Comprehensive</span>
+              <span className="block whitespace-nowrap">
+                <span className="italic font-light">Protection.</span> Powered
+              </span>
+              <span className="block whitespace-nowrap">
+                By <span className="italic font-light">Intelligence.</span>
+              </span>
             </h2>
             <p className="mt-6 text-[14px] font-light italic leading-[1.6] text-primary/90 md:ml-auto md:max-w-[520px]">
               GillNet AI provides various AI - Powered Cybersecurity Tools that detect, analyze, and
