@@ -12,8 +12,8 @@ const threats = [
 export function Problem() {
   return (
     <section id="problem" className="mx-auto max-w-[1440px] px-6 py-20 md:px-16 md:py-28">
-      <div className="grid items-center gap-12 md:grid-cols-2">
-        <div className="order-2 flex items-center justify-center md:order-1 md:justify-start">
+      <div className="grid gap-12 md:grid-cols-2 md:items-start">
+        <div className="order-2 flex items-start justify-center md:order-1 md:justify-start">
           <img
             src={spiral.url}
             alt="Black spiral object"
@@ -25,13 +25,19 @@ export function Problem() {
           <p className="inline-block border-b border-primary pb-1 text-[13px] uppercase tracking-[0.14em]">
             The Problem
           </p>
-          <h2 className="mt-6 text-[34px] leading-[1.12] sm:text-[44px] lg:text-[56px]">
-            The <span className="font-normal">Digital</span> <span className="italic font-light">World</span>
-            <br />
-            Rewards <span className="italic font-light">Convenience.</span>
-            <br />
-            <span className="italic font-light">Attackers</span> Depend On It.
+          <h2 className="mt-6 text-[30px] leading-[1.12] sm:text-[38px] lg:text-[46px] xl:text-[54px]">
+            <span className="block whitespace-nowrap">
+              The <span className="font-normal">Digital</span>{" "}
+              <span className="italic font-light">World</span>
+            </span>
+            <span className="block whitespace-nowrap">
+              Rewards <span className="italic font-light">Convenience.</span>
+            </span>
+            <span className="block whitespace-nowrap">
+              <span className="italic font-light">Attackers</span> Depend On It.
+            </span>
           </h2>
+
           <p className="mt-6 text-[15px] font-light italic leading-[1.6] text-primary/90 md:ml-auto md:max-w-[520px] md:text-[16px]">
             Every click, password, and message creates an opportunity for cybercriminals. Most
             attacks don't exploit software—they exploit human trust.
