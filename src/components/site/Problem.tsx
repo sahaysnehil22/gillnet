@@ -17,7 +17,7 @@ export function Problem() {
           <img
             src={spiral.url}
             alt="Black spiral object"
-            className="mt-6 w-[300px] max-w-full sm:w-[380px] lg:w-[500px] xl:w-[600px]"
+            className="mt-6 w-[300px] max-w-full sm:w-[380px] lg:w-[440px] xl:w-[500px]"
           />
         </div>
 
